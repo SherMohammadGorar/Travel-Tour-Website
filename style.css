@@ -1,0 +1,32 @@
+
+   /* GLOBAL RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Vollkorn", serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-dark: #0f172a;
+  --bg-card: #1e293b;
+  --bg-light: #111827;
+  --primary: #2563eb;
+  --primary-light: #3b82f6;
+  --text-light: #f1f5f9;
+  --text-muted: #94a3b8;
+  --border: rgba(255, 255, 255, 0.05);
+}
+
+body {
+  background: var(--bg-dark);
+  color: var(--text-light);
+}
