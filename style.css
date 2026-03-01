@@ -97,3 +97,30 @@ body {
   color: var(--primary-light);
   transform: scale(1.1);
 }
+
+/* Header */
+.header {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(15, 23, 42, 0.8),
+      rgba(15, 23, 42, 0.9)
+    ),
+    url(images/header-bg.jpg) center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-size: 7rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.header-paragraph {
+  font-size: 2.2rem;
+  color: var(--text-muted);
+  max-width: 60rem;
+  margin: auto;
+}
