@@ -204,3 +204,38 @@ body {
 .card-button:hover {
   background: var(--primary-light);
 }
+
+/* Stories Section */
+
+.stories {
+  padding: 10rem 5%;
+  background: var(--bg-dark);
+}
+
+.story {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 6rem;
+  align-items: center;
+  background: var(--bg-card);
+  padding: 4rem;
+  border-radius: 2rem;
+  border: 1px solid var(--border);
+}
+
+.story-image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.story-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.story-paragraph {
+  font-size: 1.6rem;
+  color: var(--text-muted);
+}
